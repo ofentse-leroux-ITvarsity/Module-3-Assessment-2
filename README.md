@@ -1,1 +1,1 @@
-# Module-3-Assessment-2
+I would like to acknowlege Kimmy(https://codepen.io/kimmy), whose codepen allowed my to achieve the confetti effect on my "Thank You" Page.

@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>menu app</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-dark navbar-expand-md sticky-top bg-dark">
+        <div class="container"><button data-toggle="collapse" class="navbar-toggler" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse flex-grow-1 justify-content-between" id="navcol-1">
+                <ul class="navbar-nav flex-grow-1 justify-content-between">
+                    <li class="nav-item"><a class="nav-link" href="index.html" style="font-size: 1.5rem;line-height: 0.8;">Tasty</a></li>
+                    <li class="nav-item"><a class="nav-link" href="starters.html">Starter</a></li>
+                    <li class="nav-item"><a class="nav-link" href="main.html">Main</a></li>
+                    <li class="nav-item"><a class="nav-link" href="dessert.html">Dessert</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container" style="margin-top: 1rem;margin-bottom: 1rem;">
+        <div class="row">
+            <div class="col-md-6 col-xl-5"><img src="assets/img/alexander-kovacs-viUQ9_iuFek-unsplash.jpg" style="width: 100%;"></div>
+            <div class="col-md-6 col-xl-6">
+                <h1>Wings</h1>
+                <h5>R89.00</h5>
+                <h5>Single Serving (6 pcs)</h5>
+                <p>Served with salad and hot sauce</p>
+                <h5><img src="assets/img/halal-sign.png" style="width: 1.25rem;">&nbsp;Halaal</h5>
+                <h5><img src="assets/img/medal.png" style="width: 1.25rem;">&nbsp;Chef's Pick</h5>
+                <h5><img src="assets/img/chili.png" style="width: 1.25rem;">&nbsp;Hot Hot Hot!!!!</h5><div class="accordion" style="padding:0;margin:1.5rem 0; border: 1px solid black;">
+<button class="accordion"><i class="fa fa-plus"></i> Extras</button>
+<div class="panel">
+    <p>There are no extras available for this dish.</p>
+</div>
+
+<button class="accordion" style="border-top: none;border-bottom: 0;"><i class="fa fa-glass"></i> Add a Drink</button>
+<div class="panel">
+    <div class="form-check"><input type="checkbox" class="form-check-input" id="formCheck-1" /><label class="form-check-label" for="formCheck-1">Coca-Cola 450ml</label></div>
+    <div class="form-check"><input type="checkbox" class="form-check-input" id="formCheck-1" /><label class="form-check-label" for="formCheck-1">Red Grapetizer 450ml</label></div>
+    <div class="form-check"><input type="checkbox" class="form-check-input" id="formCheck-1" /><label class="form-check-label" for="formCheck-1">Fanta Orange 450ml</label></div>
+    <div class="form-check"><input type="checkbox" class="form-check-input" id="formCheck-1" /><label class="form-check-label" for="formCheck-1">Sprite 450ml</label></div>
+</div>
+
+<button class="accordion"><i class="fa fa-pencil-square-o"></i> Additional Instructions</button>
+<div class="panel">
+  <textarea style="width: 100%;height:7rem;margin-bottom:1rem;" placeholder="Add your instructions here..."></textarea>
+</div>
+</div>
+                <div class="row" style="margin-top: 1rem;">
+                    <div class="col" style="height: auto;padding: 0;display: flex;flex-direction: row;"><div class="quantity buttons_added">
+	<input type="button" value="-" class="minus"><input type="number" step="1" min="1" max="" name="quantity" value="1" title="Qty" class="input-text qty text" size="4" pattern="" inputmode=""><input type="button" value="+" class="plus">
+</div><a class="btn btn-primary" role="button" style="background-color: #000;border-radius: 0;width: 70%;height: 3rem;padding: 0.7rem;" href="thank-you.html">Place Order</a></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container" id="main-container">
+        <h2 class="Category" style="margin-top: 1rem;">YOU MAY ALSO &nbsp;<i class="fa fa-heart-o"></i></h2>
+        <div class="row" id="main-row">
+            <div class="col" id="main-column" style="padding: 0;">
+                <div class="card" style="height: auto;">
+                    <div class="card-body" style="height: auto;"><img src="assets/img/WhatsApp%20Image%202021-08-18%20at%2018.59.42%20(6).jpeg" style="width: 100%;">
+                        <h4 class="card-title">Ratatouille</h4>
+                        <h5 class="card-title">R159.00</h5><a class="card-link" href="5.html">Learn More&gt;</a>
+                    </div>
+                </div>
+                <div class="card" style="height: auto;">
+                    <div class="card-body" style="height: auto;"><img src="assets/img/WhatsApp%20Image%202021-08-18%20at%2018.59.42%20(5).jpeg" style="width: 100%;">
+                        <h4 class="card-title">Lasagne Al Forno</h4>
+                        <h5 class="card-title">R149.00</h5><a class="card-link" href="6.html">Learn More&gt;</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col" id="main-column" style="padding: 0;">
+                <div class="card" style="height: auto;">
+                    <div class="card-body" style="height: auto;"><img src="assets/img/WhatsApp%20Image%202021-08-18%20at%2018.59.42%20(7).jpeg" style="width: 100%;">
+                        <h4 class="card-title">Lamb Shank</h4>
+                        <h5 class="card-title">R169.00</h5><a class="card-link" href="7.html">Learn More&gt;</a>
+                    </div>
+                </div>
+                <div class="card" style="height: auto;">
+                    <div class="card-body" style="height: auto;"><img src="assets/img/WhatsApp%20Image%202021-08-18%20at%2018.59.42%20(1).jpeg" style="width: 100%;">
+                        <h4 class="card-title">Spaghetti Carbonara</h4>
+                        <h5 class="card-title">R149.00</h5><a class="card-link" href="8.html">Learn More&gt;</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="assets/js/script.js"></script>
+</body>
+
+</html>
